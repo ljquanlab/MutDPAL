@@ -28,14 +28,17 @@ conda env create -f environment.yml
 It is also necessary to install two pre-trained models: [ESM-1v](https://huggingface.co/facebook/esm1v_t33_650M_UR90S_1), [BioBert](https://huggingface.co/dmis-lab/biobert-base-cased-v1.1/). We use the pre-trained weights from HuggingFace for prediction. and [TMbed](https://github.com/BernhoferM/TMbed). Please download them to your device and modify the corresponding paths to extraction features.  
 
 ## Quick start
-1. Feature extraction using `protein_feature.py` and `BioBert` 
+1. Download  'data' file and add it to the current path:
+
+   url：https://pan.baidu.com/s/1YuwoqdNIlUdPNBG_-5TsXw?pwd=dsmv 
+   password：dsmv  
 2. cd scripts
 3. For pathogenic classification task  
 ```python
 cd patho_classification/  
-python main.py --mode train
+python main.py --mode train  #重新训练
 # or
-python main.py --mode test
+python main.py --mode test  #直接加载模型权重进行测试
 ```
 4. For multi-label disease classification task  
  ```python
@@ -44,20 +47,8 @@ python main.py --mode train
 # or
 python main.py --mode test
 ```
-> We provide examples in `./example`.
-
-First, you must provide a csv file, containing the UniprotID, seq, ref, pos, mut, mut_seq, y_class, y, etc. of the protein.  You can use `protein_feature.py` to extract the semantic information and physicochemical and biochemical properties of the protein.  
-
-Then, based on the sequence, use TMbed to obtain the protein's topological structure information and represent it in natural language format, as shown in the `transmembrane_description.txt` file.   
-
-Finally, leverage BioBERT to generate the corresponding transmembrane environment features.   
-
-> Then run:
-```bash
-cd scripts/
-python main.py --mode test
-```
-And the disease classification prediction results will be saved in `../model_state/test_logs.txt`. 
+5. For Pred-MutHTP dataset
+For reference, we have provided one-fold features and weights, and you can run the test by modifying the data and save_path paths in the main function in the patho_classification folder.
 
 
 ## Contacts  
