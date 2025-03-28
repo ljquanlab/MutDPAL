@@ -47,7 +47,7 @@ python main.py --mode train
 # or
 python main.py --mode test
 ```
-5. For Pred-MutHTP dataset
+5. For Pred-MutHTP dataset  
 For reference, we have provided one-fold features and weights, and you can run the test by modifying the data and save_path paths in the main function in the patho_classification folder.
 
 
