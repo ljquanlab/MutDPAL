@@ -1,0 +1,20 @@
+测试集结果:
+Class 1 - Accuracy: 0.9203, AUC: 0.9703, Precision: 0.8642, Recall: 0.8078, MCC: 0.7833, Specificity: 0.9577, AP: 0.9091
+Class 2 - Accuracy: 0.9925, AUC: 0.9728, Precision: 0.8621, Recall: 0.6579, MCC: 0.7495, Specificity: 0.9982, AP: 0.7784
+Class 3 - Accuracy: 0.9529, AUC: 0.9445, Precision: 0.6738, Recall: 0.6090, MCC: 0.6155, Specificity: 0.9783, AP: 0.7123
+Class 4 - Accuracy: 0.9630, AUC: 0.9800, Precision: 0.9014, Recall: 0.9339, MCC: 0.8937, Specificity: 0.9712, AP: 0.9494
+Class 5 - Accuracy: 0.9978, AUC: 0.9993, Precision: 0.7692, Recall: 0.8333, MCC: 0.7995, Specificity: 0.9987, AP: 0.8457
+Class 6 - Accuracy: 0.9582, AUC: 0.9786, Precision: 0.8541, Recall: 0.8852, MCC: 0.8446, Specificity: 0.9718, AP: 0.8956
+Class 7 - Accuracy: 0.9987, AUC: 0.8351, Precision: 0.6000, Recall: 0.7500, MCC: 0.6702, Specificity: 0.9991, AP: 0.6882
+Class 8 - Accuracy: 0.9930, AUC: 0.9702, Precision: 0.8654, Recall: 0.8333, MCC: 0.8456, Specificity: 0.9968, AP: 0.8170
+Class 9 - Accuracy: 0.9745, AUC: 0.9849, Precision: 0.7054, Recall: 0.7596, MCC: 0.7186, Specificity: 0.9848, AP: 0.8315
+Class 10 - Accuracy: 0.9811, AUC: 0.9941, Precision: 0.8615, Recall: 0.9130, MCC: 0.8767, Specificity: 0.9871, AP: 0.9179
+Class 11 - Accuracy: 0.9833, AUC: 0.9860, Precision: 0.7912, Recall: 0.7912, MCC: 0.7825, Specificity: 0.9913, AP: 0.8349
+Class 12 - Accuracy: 0.9767, AUC: 0.9735, Precision: 0.8511, Recall: 0.6723, MCC: 0.7448, Specificity: 0.9935, AP: 0.8498
+Class 13 - Accuracy: 0.8661, AUC: 0.6833, Precision: 0.4726, Recall: 0.2331, MCC: 0.2665, Specificity: 0.9610, AP: 0.3572
+Class 14 - Accuracy: 0.9524, AUC: 0.7602, Precision: 0.2500, Recall: 0.0192, MCC: 0.0581, Specificity: 0.9972, AP: 0.1711
+Class 15 - Accuracy: 0.9925, AUC: 0.8762, Precision: 0.4286, Recall: 0.1875, MCC: 0.2802, Specificity: 0.9982, AP: 0.3582
+Precision Multi: 0.779319
+Recall Multi: 0.761419
+F1 Multi: 0.757363
+Hamming Loss: 0.033143
