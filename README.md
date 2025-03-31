@@ -30,8 +30,8 @@ It is also necessary to install two pre-trained models: [ESM-1v](https://hugging
 ## Quick start
 1. Download  'data' file and add it to the current path:
 
-   url：https://pan.baidu.com/s/1YuwoqdNIlUdPNBG_-5TsXw?pwd=dsmv 
-   password：dsmv  
+   url： https://pan.baidu.com/s/1OEqtpsXlFIR7CzG4rFRFeA?pwd=weg5 
+   password：weg5 
 2. cd scripts
 3. For pathogenic classification task  
 ```python
