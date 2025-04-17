@@ -19,6 +19,7 @@ conda activate MutDPAL
 conda install pytorch==2.3.0 pytorch-cuda=11.8 -c pytorch -c nvidia
 conda install scikit-learn=1.3.2 
 conda install  numpy=1.24.3
+conda install  tqdm=4.66.4  
 ```
 Or you can use the provided [environment.yml](./environment.yml) to create all the required dependency packages.
 ```sh
