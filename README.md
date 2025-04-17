@@ -30,10 +30,11 @@ It is also necessary to install two pre-trained models: [ESM-1v](https://hugging
 ## Quick start
 1. Download  'data' file and add it to the current path:
 
-   url： https://pan.baidu.com/s/1OEqtpsXlFIR7CzG4rFRFeA?pwd=weg5 
-   password：weg5 
-2. cd scripts
-3. For pathogenic classification task  
+   url： https://pan.baidu.com/s/1-k9xkqek2D4yDFdG5hWfMg?pwd=usj8
+   password：usj8
+   
+3. cd scripts
+4. For pathogenic classification task  
 ```python
 cd patho_classification/  
 python main.py --mode train  #重新训练
