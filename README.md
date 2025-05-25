@@ -31,7 +31,7 @@ It is also necessary to install two pre-trained models: [ESM-1v](https://hugging
 ## Quick start
 1. Download  'data' file and add it to the current path:
 
-   url： (https://drive.google.com/drive/folders/1lTz0hUA8VZ_1h12rx3653XD_QZvnwQpv?usp=sharing)
+   url： https://drive.google.com/drive/folders/1lTz0hUA8VZ_1h12rx3653XD_QZvnwQpv?usp=sharing
 
    
 3. cd scripts
