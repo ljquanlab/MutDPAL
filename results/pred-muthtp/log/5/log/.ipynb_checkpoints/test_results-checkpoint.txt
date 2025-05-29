@@ -1,0 +1,209 @@
+第1轮训练结果:
+Train Loss: 0.561768, AUC: 0.771162, ACC: 0.700115, MCC: 0.387341, Recall: 0.788669, Precision :0.705760, Sp: 0.589583
+**********
+Test Loss: 0.470261, AUC: 0.827771, ACC: 0.765053, MCC: 0.509953, Recall: 0.782075, Precision: 0.832329, Sp: 0.736593, F1: 0.806420
+**********
+第2轮训练结果:
+Train Loss: 0.461750, AUC: 0.857587, ACC: 0.778993, MCC: 0.550539, Recall: 0.828071, Precision :0.785490, Sp: 0.717733
+**********
+Test Loss: 0.539279, AUC: 0.844651, ACC: 0.779811, MCC: 0.536622, Recall: 0.804717, Precision: 0.837095, Sp: 0.738170, F1: 0.820587
+**********
+第3轮训练结果:
+Train Loss: 0.445650, AUC: 0.869029, ACC: 0.788912, MCC: 0.571257, Recall: 0.826358, Precision :0.800024, Sp: 0.742172
+第4轮训练结果:
+Train Loss: 0.430897, AUC: 0.878022, ACC: 0.797337, MCC: 0.588072, Recall: 0.841777, Precision :0.802777, Sp: 0.741867
+第5轮训练结果:
+Train Loss: 0.422362, AUC: 0.883991, ACC: 0.806780, MCC: 0.607356, Recall: 0.849486, Precision :0.811360, Sp: 0.753475
+第6轮训练结果:
+Train Loss: 0.416925, AUC: 0.886947, ACC: 0.806984, MCC: 0.607894, Recall: 0.845693, Precision :0.813921, Sp: 0.758668
+第7轮训练结果:
+Train Loss: 0.407427, AUC: 0.892662, ACC: 0.813099, MCC: 0.620288, Recall: 0.853157, Precision :0.818022, Sp: 0.763098
+**********
+Test Loss: 0.446548, AUC: 0.851625, ACC: 0.779221, MCC: 0.536650, Recall: 0.800943, Precision: 0.838933, Sp: 0.742902, F1: 0.819498
+**********
+第8轮训练结果:
+Train Loss: 0.411702, AUC: 0.890524, ACC: 0.810109, MCC: 0.614408, Recall: 0.844836, Precision :0.818883, Sp: 0.766763
+第9轮训练结果:
+Train Loss: 0.406160, AUC: 0.893091, ACC: 0.810585, MCC: 0.615132, Recall: 0.852178, Precision :0.815075, Sp: 0.758668
+第10轮训练结果:
+Train Loss: 0.403557, AUC: 0.895228, ACC: 0.816020, MCC: 0.626417, Recall: 0.850465, Precision :0.823850, Sp: 0.773026
+第11轮训练结果:
+Train Loss: 0.400839, AUC: 0.896343, ACC: 0.814797, MCC: 0.623803, Recall: 0.852790, Precision :0.820655, Sp: 0.767374
+第12轮训练结果:
+Train Loss: 0.395037, AUC: 0.899785, ACC: 0.819281, MCC: 0.633101, Recall: 0.852178, Precision :0.827471, Sp: 0.778219
+第13轮训练结果:
+Train Loss: 0.395032, AUC: 0.899860, ACC: 0.820232, MCC: 0.635149, Recall: 0.850587, Precision :0.829871, Sp: 0.782343
+第14轮训练结果:
+Train Loss: 0.390497, AUC: 0.902172, ACC: 0.820776, MCC: 0.636064, Recall: 0.855482, Precision :0.827533, Sp: 0.777455
+第15轮训练结果:
+Train Loss: 0.388871, AUC: 0.902827, ACC: 0.821863, MCC: 0.638336, Recall: 0.854870, Precision :0.829494, Sp: 0.780663
+第16轮训练结果:
+Train Loss: 0.396413, AUC: 0.898778, ACC: 0.815409, MCC: 0.625413, Recall: 0.845081, Precision :0.826373, Sp: 0.778372
+第17轮训练结果:
+Train Loss: 0.381270, AUC: 0.907092, ACC: 0.826483, MCC: 0.647826, Recall: 0.856706, Precision :0.835043, Sp: 0.788758
+第18轮训练结果:
+Train Loss: 0.381192, AUC: 0.906964, ACC: 0.825939, MCC: 0.646513, Recall: 0.862090, Precision :0.830778, Sp: 0.780816
+第19轮训练结果:
+Train Loss: 0.377919, AUC: 0.908634, ACC: 0.827298, MCC: 0.649522, Recall: 0.856583, Precision :0.836320, Sp: 0.790744
+第20轮训练结果:
+Train Loss: 0.378046, AUC: 0.908413, ACC: 0.829132, MCC: 0.653100, Recall: 0.861968, Precision :0.835488, Sp: 0.788147
+第21轮训练结果:
+Train Loss: 0.377872, AUC: 0.908598, ACC: 0.828861, MCC: 0.652448, Recall: 0.865272, Precision :0.832960, Sp: 0.783412
+第22轮训练结果:
+Train Loss: 0.372548, AUC: 0.911502, ACC: 0.830695, MCC: 0.656451, Recall: 0.859031, Precision :0.839713, Sp: 0.795326
+第23轮训练结果:
+Train Loss: 0.369744, AUC: 0.912926, ACC: 0.831578, MCC: 0.658327, Recall: 0.858174, Precision :0.841594, Sp: 0.798381
+第24轮训练结果:
+Train Loss: 0.367120, AUC: 0.914333, ACC: 0.833752, MCC: 0.662554, Recall: 0.864415, Precision :0.840652, Sp: 0.795479
+第25轮训练结果:
+Train Loss: 0.363662, AUC: 0.915958, ACC: 0.835926, MCC: 0.666986, Recall: 0.866006, Precision :0.842801, Sp: 0.798381
+第26轮训练结果:
+Train Loss: 0.361665, AUC: 0.916641, ACC: 0.834568, MCC: 0.664216, Recall: 0.865027, Precision :0.841447, Sp: 0.796548
+第27轮训练结果:
+Train Loss: 0.367344, AUC: 0.914104, ACC: 0.833616, MCC: 0.662621, Recall: 0.857195, Precision :0.845300, Sp: 0.804185
+第28轮训练结果:
+Train Loss: 0.360769, AUC: 0.917054, ACC: 0.832597, MCC: 0.660222, Recall: 0.862947, Precision :0.839924, Sp: 0.794715
+第29轮训练结果:
+Train Loss: 0.353747, AUC: 0.920811, ACC: 0.843196, MCC: 0.681867, Recall: 0.869677, Precision :0.851138, Sp: 0.810142
+第30轮训练结果:
+Train Loss: 0.350400, AUC: 0.922046, ACC: 0.842516, MCC: 0.680536, Recall: 0.867964, Precision :0.851296, Sp: 0.810753
+第31轮训练结果:
+Train Loss: 0.352222, AUC: 0.921342, ACC: 0.842177, MCC: 0.679644, Recall: 0.873226, Precision :0.847204, Sp: 0.803421
+第32轮训练结果:
+Train Loss: 0.362086, AUC: 0.916811, ACC: 0.836334, MCC: 0.668098, Recall: 0.860255, Precision :0.847294, Sp: 0.806476
+第33轮训练结果:
+Train Loss: 0.355390, AUC: 0.919708, ACC: 0.840071, MCC: 0.675385, Recall: 0.870534, Precision :0.845898, Sp: 0.802047
+第34轮训练结果:
+Train Loss: 0.351162, AUC: 0.921573, ACC: 0.842313, MCC: 0.680081, Recall: 0.868698, Precision :0.850485, Sp: 0.809378
+第35轮训练结果:
+Train Loss: 0.345487, AUC: 0.924465, ACC: 0.843128, MCC: 0.681732, Recall: 0.869555, Precision :0.851120, Sp: 0.810142
+第36轮训练结果:
+Train Loss: 0.342241, AUC: 0.925889, ACC: 0.848971, MCC: 0.693748, Recall: 0.871390, Precision :0.858676, Sp: 0.820987
+第37轮训练结果:
+Train Loss: 0.349073, AUC: 0.922923, ACC: 0.845778, MCC: 0.687120, Recall: 0.871757, Precision :0.853583, Sp: 0.813350
+第38轮训练结果:
+Train Loss: 0.335779, AUC: 0.928901, ACC: 0.850941, MCC: 0.697748, Recall: 0.873103, Precision :0.860468, Sp: 0.823278
+第39轮训练结果:
+Train Loss: 0.337737, AUC: 0.927868, ACC: 0.850601, MCC: 0.696895, Recall: 0.876652, Precision :0.857451, Sp: 0.818085
+第40轮训练结果:
+Train Loss: 0.335480, AUC: 0.928949, ACC: 0.850397, MCC: 0.696377, Recall: 0.879956, Precision :0.854850, Sp: 0.813502
+第41轮训练结果:
+Train Loss: 0.336168, AUC: 0.928738, ACC: 0.851484, MCC: 0.698678, Recall: 0.877753, Precision :0.858014, Sp: 0.818696
+第42轮训练结果:
+Train Loss: 0.325863, AUC: 0.933111, ACC: 0.858346, MCC: 0.712586, Recall: 0.884973, Precision :0.863316, Sp: 0.825111
+第43轮训练结果:
+Train Loss: 0.324007, AUC: 0.934061, ACC: 0.856784, MCC: 0.709473, Recall: 0.881547, Precision :0.863375, Sp: 0.825874
+第44轮训练结果:
+Train Loss: 0.320929, AUC: 0.935051, ACC: 0.856784, MCC: 0.709469, Recall: 0.881669, Precision :0.863288, Sp: 0.825722
+第45轮训练结果:
+Train Loss: 0.318342, AUC: 0.936258, ACC: 0.860113, MCC: 0.716306, Recall: 0.882526, Precision :0.867766, Sp: 0.832137
+第46轮训练结果:
+Train Loss: 0.323276, AUC: 0.934222, ACC: 0.857395, MCC: 0.710611, Recall: 0.885952, Precision :0.861187, Sp: 0.821750
+第47轮训练结果:
+Train Loss: 0.317072, AUC: 0.936786, ACC: 0.858958, MCC: 0.713876, Recall: 0.883872, Precision :0.865030, Sp: 0.827860
+第48轮训练结果:
+Train Loss: 0.312060, AUC: 0.938814, ACC: 0.861607, MCC: 0.719330, Recall: 0.884116, Precision :0.868912, Sp: 0.833512
+第49轮训练结果:
+Train Loss: 0.308995, AUC: 0.940061, ACC: 0.863442, MCC: 0.723029, Recall: 0.886442, Precision :0.870046, Sp: 0.834733
+第50轮训练结果:
+Train Loss: 0.313021, AUC: 0.938634, ACC: 0.862898, MCC: 0.721901, Recall: 0.886686, Precision :0.869033, Sp: 0.833206
+第51轮训练结果:
+Train Loss: 0.306979, AUC: 0.940854, ACC: 0.863714, MCC: 0.723520, Recall: 0.888644, Precision :0.868868, Sp: 0.832595
+第52轮训练结果:
+Train Loss: 0.312007, AUC: 0.938733, ACC: 0.861540, MCC: 0.719035, Recall: 0.889745, Precision :0.864772, Sp: 0.826333
+第53轮训练结果:
+Train Loss: 0.299426, AUC: 0.943956, ACC: 0.869692, MCC: 0.735650, Recall: 0.894640, Precision :0.873685, Sp: 0.838552
+第54轮训练结果:
+Train Loss: 0.304209, AUC: 0.941903, ACC: 0.866159, MCC: 0.728522, Recall: 0.889623, Precision :0.871912, Sp: 0.836872
+第55轮训练结果:
+Train Loss: 0.303208, AUC: 0.942714, ACC: 0.866975, MCC: 0.730114, Recall: 0.892927, Precision :0.870764, Sp: 0.834581
+第56轮训练结果:
+Train Loss: 0.288016, AUC: 0.948134, ACC: 0.873633, MCC: 0.743635, Recall: 0.899413, Precision :0.876252, Sp: 0.841454
+第57轮训练结果:
+Train Loss: 0.297172, AUC: 0.944494, ACC: 0.868673, MCC: 0.733607, Recall: 0.892560, Precision :0.873638, Sp: 0.838857
+第58轮训练结果:
+Train Loss: 0.289658, AUC: 0.947356, ACC: 0.873904, MCC: 0.744247, Recall: 0.896598, Precision :0.878748, Sp: 0.845578
+第59轮训练结果:
+Train Loss: 0.285002, AUC: 0.948846, ACC: 0.873361, MCC: 0.743080, Recall: 0.899413, Precision :0.875834, Sp: 0.840843
+第60轮训练结果:
+Train Loss: 0.287623, AUC: 0.948142, ACC: 0.872070, MCC: 0.740642, Recall: 0.891336, Precision :0.879816, Sp: 0.848022
+第61轮训练结果:
+Train Loss: 0.284797, AUC: 0.949214, ACC: 0.876418, MCC: 0.749349, Recall: 0.898923, Precision :0.880921, Sp: 0.848327
+第62轮训练结果:
+Train Loss: 0.287545, AUC: 0.948073, ACC: 0.873361, MCC: 0.743096, Recall: 0.898311, Precision :0.876642, Sp: 0.842218
+第63轮训练结果:
+Train Loss: 0.273352, AUC: 0.953243, ACC: 0.878864, MCC: 0.754285, Recall: 0.902717, Precision :0.881889, Sp: 0.849091
+第64轮训练结果:
+Train Loss: 0.263483, AUC: 0.956688, ACC: 0.883076, MCC: 0.762886, Recall: 0.904063, Precision :0.887447, Sp: 0.856881
+第65轮训练结果:
+Train Loss: 0.270765, AUC: 0.954320, ACC: 0.883552, MCC: 0.763880, Recall: 0.903328, Precision :0.888755, Sp: 0.858867
+第66轮训练结果:
+Train Loss: 0.269322, AUC: 0.954609, ACC: 0.882940, MCC: 0.762563, Recall: 0.906632, Precision :0.885291, Sp: 0.853368
+第67轮训练结果:
+Train Loss: 0.259229, AUC: 0.958242, ACC: 0.888104, MCC: 0.773061, Recall: 0.910426, Precision :0.890485, Sp: 0.860241
+第68轮训练结果:
+Train Loss: 0.261335, AUC: 0.957240, ACC: 0.886745, MCC: 0.770361, Recall: 0.906143, Precision :0.891632, Sp: 0.862532
+第69轮训练结果:
+Train Loss: 0.253522, AUC: 0.959910, ACC: 0.889327, MCC: 0.775553, Recall: 0.910915, Precision :0.892031, Sp: 0.862380
+第70轮训练结果:
+Train Loss: 0.253235, AUC: 0.960138, ACC: 0.891297, MCC: 0.779543, Recall: 0.913607, Precision :0.893062, Sp: 0.863449
+第71轮训练结果:
+Train Loss: 0.262015, AUC: 0.957288, ACC: 0.888579, MCC: 0.774087, Recall: 0.907611, Precision :0.893399, Sp: 0.864824
+第72轮训练结果:
+Train Loss: 0.245855, AUC: 0.962404, ACC: 0.895237, MCC: 0.787560, Recall: 0.915810, Precision :0.897577, Sp: 0.869559
+第73轮训练结果:
+Train Loss: 0.246220, AUC: 0.962285, ACC: 0.895577, MCC: 0.788282, Recall: 0.914097, Precision :0.899458, Sp: 0.872461
+第74轮训练结果:
+Train Loss: 0.242195, AUC: 0.963331, ACC: 0.897072, MCC: 0.791288, Recall: 0.917156, Precision :0.899436, Sp: 0.872002
+第75轮训练结果:
+Train Loss: 0.242144, AUC: 0.963410, ACC: 0.891569, MCC: 0.780091, Recall: 0.914464, Precision :0.892832, Sp: 0.862991
+第76轮训练结果:
+Train Loss: 0.238707, AUC: 0.964473, ACC: 0.898159, MCC: 0.793525, Recall: 0.916177, Precision :0.901940, Sp: 0.875668
+第77轮训练结果:
+Train Loss: 0.231353, AUC: 0.966824, ACC: 0.900469, MCC: 0.798194, Recall: 0.919359, Precision :0.903113, Sp: 0.876890
+第78轮训练结果:
+Train Loss: 0.230685, AUC: 0.966859, ACC: 0.903322, MCC: 0.803972, Recall: 0.923519, Precision :0.904374, Sp: 0.878112
+第79轮训练结果:
+Train Loss: 0.230718, AUC: 0.967079, ACC: 0.902439, MCC: 0.802188, Recall: 0.921561, Precision :0.904516, Sp: 0.878570
+第80轮训练结果:
+Train Loss: 0.239096, AUC: 0.964403, ACC: 0.896257, MCC: 0.789643, Recall: 0.915688, Precision :0.899291, Sp: 0.872002
+第81轮训练结果:
+Train Loss: 0.233145, AUC: 0.966443, ACC: 0.898159, MCC: 0.793489, Recall: 0.918625, Precision :0.900012, Sp: 0.872613
+第82轮训练结果:
+Train Loss: 0.215835, AUC: 0.971170, ACC: 0.907602, MCC: 0.812668, Recall: 0.926456, Precision :0.908884, Sp: 0.884069
+第83轮训练结果:
+Train Loss: 0.211864, AUC: 0.972017, ACC: 0.911475, MCC: 0.820543, Recall: 0.928169, Precision :0.913745, Sp: 0.890637
+第84轮训练结果:
+Train Loss: 0.217050, AUC: 0.970840, ACC: 0.907467, MCC: 0.812411, Recall: 0.924498, Precision :0.910241, Sp: 0.886207
+第85轮训练结果:
+Train Loss: 0.217980, AUC: 0.970586, ACC: 0.905700, MCC: 0.808849, Recall: 0.921684, Precision :0.909662, Sp: 0.885749
+第86轮训练结果:
+Train Loss: 0.212113, AUC: 0.972137, ACC: 0.909437, MCC: 0.816395, Recall: 0.927558, Precision :0.910948, Sp: 0.886818
+第87轮训练结果:
+Train Loss: 0.210352, AUC: 0.972554, ACC: 0.910796, MCC: 0.819259, Recall: 0.923152, Precision :0.916758, Sp: 0.895372
+第88轮训练结果:
+Train Loss: 0.207057, AUC: 0.973549, ACC: 0.914668, MCC: 0.827011, Recall: 0.932819, Precision :0.915126, Sp: 0.892012
+第89轮训练结果:
+Train Loss: 0.208851, AUC: 0.972891, ACC: 0.908893, MCC: 0.815312, Recall: 0.925355, Precision :0.911853, Sp: 0.888346
+第90轮训练结果:
+Train Loss: 0.200728, AUC: 0.975116, ACC: 0.915348, MCC: 0.828424, Recall: 0.929883, Precision :0.918641, Sp: 0.897205
+第91轮训练结果:
+Train Loss: 0.205228, AUC: 0.973854, ACC: 0.911611, MCC: 0.820823, Recall: 0.927925, Precision :0.914165, Sp: 0.891248
+第92轮训练结果:
+Train Loss: 0.201637, AUC: 0.974988, ACC: 0.912426, MCC: 0.822467, Recall: 0.929638, Precision :0.914090, Sp: 0.890942
+第93轮训练结果:
+Train Loss: 0.192684, AUC: 0.976940, ACC: 0.918473, MCC: 0.834736, Recall: 0.935512, Precision :0.919091, Sp: 0.897205
+第94轮训练结果:
+Train Loss: 0.193568, AUC: 0.976829, ACC: 0.917590, MCC: 0.832961, Recall: 0.932575, Precision :0.920077, Sp: 0.898885
+第95轮训练结果:
+Train Loss: 0.201875, AUC: 0.974868, ACC: 0.912698, MCC: 0.823027, Recall: 0.929026, Precision :0.915030, Sp: 0.892317
+第96轮训练结果:
+Train Loss: 0.183393, AUC: 0.979411, ACC: 0.924383, MCC: 0.846733, Recall: 0.940039, Precision :0.924985, Sp: 0.904842
+第97轮训练结果:
+Train Loss: 0.180604, AUC: 0.979903, ACC: 0.925131, MCC: 0.848252, Recall: 0.940039, Precision :0.926212, Sp: 0.906522
+第98轮训练结果:
+Train Loss: 0.180192, AUC: 0.980028, ACC: 0.923636, MCC: 0.845243, Recall: 0.936613, Precision :0.926634, Sp: 0.907439
+第99轮训练结果:
+Train Loss: 0.179065, AUC: 0.980222, ACC: 0.924519, MCC: 0.847017, Recall: 0.938815, Precision :0.926234, Sp: 0.906675
+第100轮训练结果:
+Train Loss: 0.187070, AUC: 0.978330, ACC: 0.921258, MCC: 0.840410, Recall: 0.935267, Precision :0.923849, Sp: 0.903773
