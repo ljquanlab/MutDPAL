@@ -34,14 +34,18 @@ It is also necessary to install two pre-trained models: [ESM-1v](https://hugging
    url： https://drive.google.com/drive/folders/1lTz0hUA8VZ_1h12rx3653XD_QZvnwQpv?usp=sharing
 
    
-3. cd scripts
-4. For pathogenic classification task  
+2. cd scripts
+3. For pathogenic classification task  
 ```python
 cd patho_classification/  
-python main.py --mode train  #重新训练
+python main.py --mode train  # Model retraining
 # or
-python main.py --mode test  #直接加载模型权重进行测试
-```
+python main.py --mode test  # Load the saved weights to evaluate the model on test data
+```  
+For Pred-MutHTP dataset  
+python pred-muthtp.py --mode train  # Model retraining  
+# or
+python pred-muthtp.py --mode test  # Load the saved weights to evaluate the model on holdout-test data  
 4. For multi-label disease classification task  
  ```python
 cd dis_classification/  
@@ -49,8 +53,6 @@ python main.py --mode train
 # or
 python main.py --mode test
 ```
-5. For Pred-MutHTP dataset  
-For reference, we have provided test features and weights, and you can run the test by modifying the data and save_path paths in the main function in the patho_classification folder.
 
 
 ## Contacts  
