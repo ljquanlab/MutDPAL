@@ -41,7 +41,7 @@ cd patho_classification/
 python main.py --mode train  # Model retraining
 # or
 python main.py --mode test  # Load the saved weights to evaluate the model on test data
-```  
+```
 For Pred-MutHTP dataset  
 ```python
 python pred-muthtp.py --mode train  # Model retraining  
