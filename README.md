@@ -43,9 +43,11 @@ python main.py --mode train  # Model retraining
 python main.py --mode test  # Load the saved weights to evaluate the model on test data
 ```  
 For Pred-MutHTP dataset  
+```python
 python pred-muthtp.py --mode train  # Model retraining  
 # or
-python pred-muthtp.py --mode test  # Load the saved weights to evaluate the model on holdout-test data  
+python pred-muthtp.py --mode test  # Load the saved weights to evaluate the model on holdout-test data
+```  
 4. For multi-label disease classification task  
  ```python
 cd dis_classification/  
