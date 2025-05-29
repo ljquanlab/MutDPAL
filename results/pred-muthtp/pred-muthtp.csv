@@ -1,0 +1,7 @@
+,Model,Validation,ACC,AUC,Recall_Bi,Mcc,Specificit
+0,Pred-MutHTP,10-fold cross,0.75,0.82,0.76,0.48,0.72
+1,,holdout-test,0.78,0.86,0.78,0.5,0.79
+2,AlphaMissense,10-fold datatasets,0.768493,0.836112,0.670808,0.561061,0.893621
+3,,holdout-test,0.772089,0.834456,0.681884,0.573474,0.893041
+4,MutDPAL,10-fold cross,0.789176,0.858128,0.831495,0.558731,0.726024
+5,,holdout-test,0.813596,0.891832,0.8137,0.624554,0.813466
