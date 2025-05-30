@@ -63,7 +63,7 @@ if __name__ == "__main__":
     parser.add_argument("--learning_rate", type=float, default=1e-2, help="Learning rate")
     parser.add_argument("--batch_size", type=int, default=128, help="Batch size")
 
-    parser.add_argument("--save_path", type=str, default='../../results/patho_result/train_best_2.pth',
+    parser.add_argument("--save_path", type=str, default='../../models/patho_model/checkpoint.pth',
                         help="Path to save the model")
     parser.add_argument("--result_path", type=str, default='../../results/patho_result/result_2.txt',
                         help="Path to save the result")
