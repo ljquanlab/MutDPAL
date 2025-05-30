@@ -347,7 +347,8 @@ if __name__ == '__main__':
     device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
     data_path= '../../data/pred-features'
     fold_path = '../../data/pred-features/10-fold_index'
-    save_dir = '../../results/pred-muthtp/log'
+    result_dir = '../../results/pred-muthtp/log'
+    model_dir = '../../models/pred-muthtp/log'
 
 
     fold_indices_files = [f for f in os.listdir(fold_path) if f.startswith("fold_") and f.endswith("_index.npy")]
@@ -380,16 +381,17 @@ if __name__ == '__main__':
             optimizer = optim.Adam(model.parameters(), lr=learning_rate)
             loss_fn = torch.nn.BCELoss()
 
-            save_path = os.path.join(save_dir, str(fold))
-            os.makedirs(os.path.join(save_path, "log"), exist_ok=True)  
+            result_path = os.path.join(result_dir, str(fold))
+            model_dirs = os.path.join(model_dir, str(fold))
+            os.makedirs(os.path.join(result_path, "log"), exist_ok=True)  
+            os.makedirs(os.path.join(model_dirs, "log"), exist_ok=True)  
 
-            result_txt = os.path.join(save_path, 'log', 'test_result.txt')
-            model_path = os.path.join(save_path, 'log', 'checkpoint.pth')
+            result_txt = os.path.join(result_path, 'log', 'test_result.txt')
+            model_path = os.path.join(model_dirs, 'log', 'checkpoint.pth')
 
-            # train_state, train_loss = train(model, num_epochs, train_loader, val_loader, optimizer,
-            #                             loss_fn, indices_tensor, device, model_path, result_txt)
-            
-            test(model, val_loader, loss_fn, indices_tensor, model_path, device, result_txt)
+            train_state, train_loss = train(model, num_epochs, train_loader, val_loader, optimizer,
+                                        loss_fn, indices_tensor, device, model_path, result_txt)
+        
             
             print(f"=== 第 {fold + 1} 折训练结束 ===\n")
 
