@@ -82,7 +82,7 @@ if __name__ == "__main__":
     parser.add_argument("--num_epochs", type=int, default=10, help="Number of training epochs")
     parser.add_argument("--learning_rate", type=float, default=1e-4, help="Learning rate")
     parser.add_argument("--batch_size", type=int, default=256, help="Batch size")
-    parser.add_argument("--save_path", type=str, default='../../results/multi_result/train_best_m.pth',
+    parser.add_argument("--save_path", type=str, default='../../models/multi_model/checkpoint.pth',
                         help="Path to save the model")
     parser.add_argument("--result_path", type=str, default='../../results/multi_result/result_m.txt',
                         help="Path to save the result")
