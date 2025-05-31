@@ -136,7 +136,7 @@ def train(model, num_epochs, train_dataloader, val_dataloader, optimizer, loss_f
         print("===>Epoch %02d: loss=%.5f, val_loss=%.4f"
               %(epoch+1, train_loss, val_loss))    
         
-        print('Trained model saved to \'%s/trained_model.h5\'' % (save_path))
+        print('Trained model saved to \'%s\'' % (save_path))
     print('End Training' + '-' * 70)
     
         
