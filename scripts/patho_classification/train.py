@@ -64,7 +64,7 @@ def train(model, num_epochs, train_dataloader, val_dataloader, optimizer, loss_f
             best_model_state = copy.deepcopy(model.state_dict())
             torch.save(best_model_state, save_path)
             
-        print('Trained model saved to \'%s/trained_model.h5\'' % (save_path))
+        print('Trained model saved to \'%s\'' % (save_path))
     print('End Training' + '-' * 70)
             
             
