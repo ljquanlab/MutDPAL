@@ -373,7 +373,7 @@ if __name__ == '__main__':
             train_dataset = DiseaseDataset(data_path, train_index)
             val_dataset = DiseaseDataset(data_path, val_index)
 
-            # train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+            train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
             val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
 
             model = MainModule(input_size, num_heads, ff_dim, num_classes, dis_emb)
@@ -409,11 +409,11 @@ if __name__ == '__main__':
         test_dataset = DiseaseDataset(data_path, test_index)
         test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
         
-        model_path = os.path.join(save_dir, '6','log', 'checkpoint.pth')
+        model_path = os.path.join(model_dir, '6','log', 'checkpoint.pth')
         model = MainModule(input_size, num_heads, ff_dim, num_classes, dis_emb)
         model.to(device)
         loss_fn = torch.nn.BCELoss()
-        result_txt = os.path.join(save_dir, 'test_result.txt')
+        result_txt = os.path.join(result_dir, 'test_result.txt')
         print('Begin Testing'+'-' * 70)
         test(model, test_loader, loss_fn, indices_tensor, model_path, device, result_txt)
         print('End Testing' + '-' * 70)
