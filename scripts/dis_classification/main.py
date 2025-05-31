@@ -79,7 +79,7 @@ if __name__ == "__main__":
     parser.add_argument("--ff_dim", type=int, default=256, help="Feedforward dimension")
     parser.add_argument("--dis_emb", type=int, default=128, help="Disease embedding dimension")
     parser.add_argument("--num_classes", type=int, default=15, help="Number of classes")
-    parser.add_argument("--num_epochs", type=int, default=10, help="Number of training epochs")
+    parser.add_argument("--num_epochs", type=int, default=100, help="Number of training epochs")
     parser.add_argument("--learning_rate", type=float, default=1e-4, help="Learning rate")
     parser.add_argument("--batch_size", type=int, default=256, help="Batch size")
     parser.add_argument("--save_path", type=str, default='../../models/multi_model/checkpoint.pth',
