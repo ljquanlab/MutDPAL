@@ -43,8 +43,8 @@ Derived from pathogenic missense mutations in PathoClassDS, this multi-label dat
 
 
    
-3. cd scripts
-4. For pathogenic classification task  
+2. cd scripts
+3. For pathogenic classification task  
 ```python
 cd patho_classification/  
 python main.py --mode train  # Model retraining
