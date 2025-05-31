@@ -38,10 +38,13 @@ Derived from pathogenic missense mutations in PathoClassDS, this multi-label dat
 1. Download 'features' and 'pred-features'  file and add it to the 'data':
 
    url： https://drive.google.com/drive/folders/1lTz0hUA8VZ_1h12rx3653XD_QZvnwQpv?usp=sharing
+* features/: original feature files used for PathoClassDS and DiseaseClassDS ;  
+* pred-features/: features used for 10-fold cross validation on the pred-muthtp dataset.
+
 
    
-2. cd scripts
-3. For pathogenic classification task  
+3. cd scripts
+4. For pathogenic classification task  
 ```python
 cd patho_classification/  
 python main.py --mode train  # Model retraining
